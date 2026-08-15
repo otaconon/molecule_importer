@@ -1,0 +1,6 @@
+[configuration]
+entry_symbol = "initialize_extension_module"
+compatibility_minimum = 4.7
+
+[libraries]
+windows.editor.x86_64 = "res://addons/molecule_importer/bin/molecule_importer.windows.editor.x86_64.dll"
