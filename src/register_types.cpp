@@ -1,4 +1,5 @@
 #include "atom_data.h"
+#include "atom.h"
 #include "molecule_editor_plugin.h"
 #include "molecule_import_plugin.h"
 
@@ -6,6 +7,7 @@ namespace godot {
 void initialize_importer_types(ModuleInitializationLevel p_level) {
   if (p_level == MODULE_INITIALIZATION_LEVEL_SCENE) {
     ClassDB::register_class<AtomData>();
+    ClassDB::register_class<Atom>();
   }
 
   if (p_level == MODULE_INITIALIZATION_LEVEL_EDITOR) {

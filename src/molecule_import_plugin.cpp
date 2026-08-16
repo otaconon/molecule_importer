@@ -68,6 +68,6 @@ Error MoleculeImportPlugin::_import(
   atom_data.instantiate();
   atom_data->set_atoms(atoms);
   String out_path = vformat("%s.%s", p_save_path, _get_save_extension());
-  return ResourceSaver::get_singleton()->save(atom_data, out_path);
+  return ResourceSaver::get_singleton()->save(atom_data, out_path, ResourceSaver::FLAG_BUNDLE_RESOURCES);
 }
 } // namespace godot

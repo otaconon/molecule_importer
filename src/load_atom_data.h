@@ -10,6 +10,8 @@
 
 #include <string>
 
+#include "Atom.h"
+
 using namespace godot;
 
 static Array load_atom_data(const String &file_path) {
@@ -30,16 +32,16 @@ static Array load_atom_data(const String &file_path) {
     const RDKit::Conformer &conf = mol->getConformer();
 
     for (const auto atom : mol->atoms()) {
-      Dictionary atom_dict;
-
       String symbol(atom->getSymbol().c_str());
-      atom_dict[String("symbol")] = symbol;
-
       RDGeom::Point3D pos = conf.getAtomPos(atom->getIdx());
 
-      atom_dict[String("position")] = Vector3(pos.x, pos.y, pos.z);
+      Ref<Atom> new_atom;
+      new_atom.instantiate();
 
-      atom_data_array.push_back(atom_dict);
+      new_atom->set_symbol(symbol);
+      new_atom->set_position(Vector3(pos.x, pos.y, pos.z));
+      
+      atom_data_array.push_back(new_atom);
     }
   }
 
