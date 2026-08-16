@@ -31,6 +31,10 @@ if conda_prefix:
         "RDKit*.dll",
         "boost_serialization*.dll",
         "boost_iostreams*.dll",
+        "libexpat*.dll",
+        "zlib*.dll",
+        "libbz2*.dll",
+        "zstd*.dll",
     ]
     installed = []
     for pattern in dll_patterns:
