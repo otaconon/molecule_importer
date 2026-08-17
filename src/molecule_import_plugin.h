@@ -3,8 +3,6 @@
 #include <godot_cpp/classes/editor_import_plugin.hpp>
 #include <godot_cpp/classes/resource_saver.hpp>
 
-#include "atom_data.h"
-#include "bond_data.h"
 #include "load_molecule_data.h"
 
 namespace godot {

@@ -11,6 +11,10 @@ namespace godot {
         ClassDB::bind_method(D_METHOD("set_bonds", "bonds"), &MoleculeData::set_bonds);
         ClassDB::bind_method(D_METHOD("get_bonds"), &MoleculeData::get_bonds);
         ADD_PROPERTY(PropertyInfo(Variant::ARRAY, "bonds"), "set_bonds", "get_bonds");
+
+        ClassDB::bind_method(D_METHOD("set_resonance_structures", "resonance_structures"), &MoleculeData::set_resonance_structures);
+        ClassDB::bind_method(D_METHOD("get_resonance_structures"), &MoleculeData::get_resonance_structures);
+        ADD_PROPERTY(PropertyInfo(Variant::ARRAY, "resonance_structures"), "set_resonance_structures", "get_resonance_structures");
     }
 
     void MoleculeData::set_atoms(const Array& p_atoms) {
@@ -27,6 +31,14 @@ namespace godot {
 
     Array MoleculeData::get_bonds() const {
         return bonds;
+    }
+
+    void MoleculeData::set_resonance_structures(const Array& p_resonance_structures) {
+        resonance_structures = p_resonance_structures;
+    }
+
+    Array MoleculeData::get_resonance_structures() const {
+        return resonance_structures;
     }
 }
 

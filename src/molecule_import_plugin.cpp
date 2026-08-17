@@ -30,7 +30,7 @@ String MoleculeImportPlugin::_get_save_extension() const {
 }
 
 String MoleculeImportPlugin::_get_resource_type() const {
-	return "AtomData";
+	return "MoleculeData";
 }
 
 int32_t MoleculeImportPlugin::_get_preset_count() const {

@@ -1,7 +1,5 @@
 #include "atom.h"
 #include "bond.h"
-#include "atom_data.h"
-#include "bond_data.h"
 #include "molecule_data.h"
 #include "molecule_editor_plugin.h"
 #include "molecule_import_plugin.h"
@@ -9,11 +7,10 @@
 namespace godot {
 void initialize_importer_types(ModuleInitializationLevel p_level) {
 	if (p_level == MODULE_INITIALIZATION_LEVEL_SCENE) {
-		ClassDB::register_class<AtomData>();
-		ClassDB::register_class<BondData>();
 		ClassDB::register_class<MoleculeData>();
 		ClassDB::register_class<Atom>();
 		ClassDB::register_class<Bond>();
+		ClassDB::register_class<ResonanceStructure>();
 	}
 
 	if (p_level == MODULE_INITIALIZATION_LEVEL_EDITOR) {
