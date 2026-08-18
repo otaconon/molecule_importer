@@ -11,6 +11,7 @@ class ResonanceStructure : public Resource {
 
 private:
     Array charges;
+	Array bond_types;
 
 protected:
 	static void _bind_methods();
@@ -21,6 +22,9 @@ public:
 
 	void set_charges(const Array &p_charges);
 	Array get_charges() const;
+
+	void set_bond_types(const Array &p_bond_types);
+	Array get_bond_types() const;
 };
 } //namespace godot
 

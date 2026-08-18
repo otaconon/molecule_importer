@@ -2,9 +2,9 @@
 
 namespace godot {
     void Bond::_bind_methods() {
-        BIND_ENUM_CONSTANT(BondType::SINGLE);
-        BIND_ENUM_CONSTANT(BondType::DOUBLE);
-        BIND_ENUM_CONSTANT(BondType::TRIPLE);
+        BIND_ENUM_CONSTANT(SINGLE);
+        BIND_ENUM_CONSTANT(DOUBLE);
+        BIND_ENUM_CONSTANT(TRIPLE);
 
         ClassDB::bind_method(D_METHOD("set_atom_a_idx", "atom_a_idx"), &Bond::set_atom_a_idx);
         ClassDB::bind_method(D_METHOD("get_atom_a_idx"), &Bond::get_atom_a_idx);

@@ -92,9 +92,29 @@ static godot::Array load_resonance_data(std::shared_ptr<RDKit::ROMol> p_mol) {
             charges[atom_idx] = formal_charge;
         }
 
+        godot::Array bond_types;
+        bond_types.resize(res_mol->bonds().size());
+        
+        int bond_idx = 0;
+        for (const auto bond: res_mol->bonds()) {
+            switch (bond->getBondType()) {
+                case RDKit::Bond::SINGLE:
+                    bond_types[bond_idx] = godot::Bond::SINGLE;
+                    break;
+                case RDKit::Bond::DOUBLE:
+                    bond_types[bond_idx] = godot::Bond::DOUBLE;
+                    break;
+                case RDKit::Bond::TRIPLE:
+                    bond_types[bond_idx] = godot::Bond::TRIPLE;
+                    break;
+            }
+            bond_idx++;
+        }
+
         godot::Ref<godot::ResonanceStructure> new_resonance_structure;
         new_resonance_structure.instantiate();
         new_resonance_structure->set_charges(charges);
+        new_resonance_structure->set_bond_types(bond_types);
         resonance_structures.push_back(new_resonance_structure);
     }
 
