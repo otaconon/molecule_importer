@@ -342,12 +342,6 @@
         "output": "godot-cpp\\gen\\src\\classes\\accept_dialog.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\accessibility_server.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\accessibility_server.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\accessibility_server.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\accessibility_server.windows.template_debug.x86_64.obj"
-    },
-    {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\aim_modifier3d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\aim_modifier3d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\aim_modifier3d.cpp",
@@ -550,12 +544,6 @@
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\area3d.cpp",
         "output": "godot-cpp\\gen\\src\\classes\\area3d.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\area_light3d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\area_light3d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\area_light3d.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\area_light3d.windows.template_debug.x86_64.obj"
     },
     {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\array_mesh.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\array_mesh.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
@@ -930,12 +918,6 @@
         "output": "godot-cpp\\gen\\src\\classes\\audio_stream_wav.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\await_tweener.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\await_tweener.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\await_tweener.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\await_tweener.windows.template_debug.x86_64.obj"
-    },
-    {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\back_buffer_copy.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\back_buffer_copy.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\back_buffer_copy.cpp",
@@ -960,12 +942,6 @@
         "output": "godot-cpp\\gen\\src\\classes\\bit_map.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\blit_material.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\blit_material.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\blit_material.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\blit_material.windows.template_debug.x86_64.obj"
-    },
-    {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\bone2d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\bone2d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\bone2d.cpp",
@@ -988,12 +964,6 @@
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\bone_map.cpp",
         "output": "godot-cpp\\gen\\src\\classes\\bone_map.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\bone_twist_disperser3d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\bone_twist_disperser3d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\bone_twist_disperser3d.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\bone_twist_disperser3d.windows.template_debug.x86_64.obj"
     },
     {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\box_container.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\box_container.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
@@ -1030,12 +1000,6 @@
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\button_group.cpp",
         "output": "godot-cpp\\gen\\src\\classes\\button_group.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\ccdik3d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\ccdik3d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\ccdik3d.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\ccdik3d.windows.template_debug.x86_64.obj"
     },
     {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\cpu_particles2d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\cpu_particles2d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
@@ -1216,12 +1180,6 @@
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\center_container.cpp",
         "output": "godot-cpp\\gen\\src\\classes\\center_container.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\chain_ik3d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\chain_ik3d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\chain_ik3d.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\chain_ik3d.windows.template_debug.x86_64.obj"
     },
     {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\char_fx_transform.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\char_fx_transform.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
@@ -1566,12 +1524,6 @@
         "output": "godot-cpp\\gen\\src\\classes\\display_server.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\drawable_texture2d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\drawable_texture2d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\drawable_texture2d.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\drawable_texture2d.windows.template_debug.x86_64.obj"
-    },
-    {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\e_net_connection.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\e_net_connection.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\e_net_connection.cpp",
@@ -1612,12 +1564,6 @@
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\editor_debugger_session.cpp",
         "output": "godot-cpp\\gen\\src\\classes\\editor_debugger_session.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\editor_dock.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\editor_dock.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\editor_dock.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\editor_dock.windows.template_debug.x86_64.obj"
     },
     {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\editor_export_platform.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\editor_export_platform.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
@@ -1956,12 +1902,6 @@
         "output": "godot-cpp\\gen\\src\\classes\\external_texture.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\fabrik3d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\fabrik3d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\fabrik3d.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\fabrik3d.windows.template_debug.x86_64.obj"
-    },
-    {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\fbx_document.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\fbx_document.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\fbx_document.cpp",
@@ -2070,28 +2010,10 @@
         "output": "godot-cpp\\gen\\src\\classes\\gd_script.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\gd_script_language_protocol.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\gd_script_language_protocol.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\gd_script_language_protocol.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\gd_script_language_protocol.windows.template_debug.x86_64.obj"
-    },
-    {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\gd_script_syntax_highlighter.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\gd_script_syntax_highlighter.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\gd_script_syntax_highlighter.cpp",
         "output": "godot-cpp\\gen\\src\\classes\\gd_script_syntax_highlighter.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\gd_script_text_document.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\gd_script_text_document.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\gd_script_text_document.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\gd_script_text_document.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\gd_script_workspace.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\gd_script_workspace.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\gd_script_workspace.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\gd_script_workspace.windows.template_debug.x86_64.obj"
     },
     {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\gltf_accessor.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\gltf_accessor.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
@@ -2298,12 +2220,6 @@
         "output": "godot-cpp\\gen\\src\\classes\\geometry_instance3d.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\godot_instance.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\godot_instance.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\godot_instance.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\godot_instance.windows.template_debug.x86_64.obj"
-    },
-    {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\gradient.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\gradient.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\gradient.cpp",
@@ -2440,12 +2356,6 @@
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\hinge_joint3d.cpp",
         "output": "godot-cpp\\gen\\src\\classes\\hinge_joint3d.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\ik_modifier3d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\ik_modifier3d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\ik_modifier3d.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\ik_modifier3d.windows.template_debug.x86_64.obj"
     },
     {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\ip.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\ip.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
@@ -2640,12 +2550,6 @@
         "output": "godot-cpp\\gen\\src\\classes\\item_list.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\iterate_ik3d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\iterate_ik3d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\iterate_ik3d.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\iterate_ik3d.windows.template_debug.x86_64.obj"
-    },
-    {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\jni_singleton.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\jni_singleton.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\jni_singleton.cpp",
@@ -2662,12 +2566,6 @@
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\jsonrpc.cpp",
         "output": "godot-cpp\\gen\\src\\classes\\jsonrpc.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\jacobian_ik3d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\jacobian_ik3d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\jacobian_ik3d.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\jacobian_ik3d.windows.template_debug.x86_64.obj"
     },
     {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\java_class.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\java_class.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
@@ -2710,18 +2608,6 @@
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\joint3d.cpp",
         "output": "godot-cpp\\gen\\src\\classes\\joint3d.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\joint_limitation3d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\joint_limitation3d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\joint_limitation3d.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\joint_limitation3d.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\joint_limitation_cone3d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\joint_limitation_cone3d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\joint_limitation_cone3d.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\joint_limitation_cone3d.windows.template_debug.x86_64.obj"
     },
     {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\kinematic_collision2d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\kinematic_collision2d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
@@ -2800,12 +2686,6 @@
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\lightmapper_rd.cpp",
         "output": "godot-cpp\\gen\\src\\classes\\lightmapper_rd.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\limit_angular_velocity_modifier3d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\limit_angular_velocity_modifier3d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\limit_angular_velocity_modifier3d.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\limit_angular_velocity_modifier3d.windows.template_debug.x86_64.obj"
     },
     {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\line2d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\line2d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
@@ -3138,22 +3018,10 @@
         "output": "godot-cpp\\gen\\src\\classes\\navigation_server2d.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\navigation_server2d_manager.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\navigation_server2d_manager.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\navigation_server2d_manager.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\navigation_server2d_manager.windows.template_debug.x86_64.obj"
-    },
-    {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\navigation_server3d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\navigation_server3d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\navigation_server3d.cpp",
         "output": "godot-cpp\\gen\\src\\classes\\navigation_server3d.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\navigation_server3d_manager.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\navigation_server3d_manager.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\navigation_server3d_manager.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\navigation_server3d_manager.windows.template_debug.x86_64.obj"
     },
     {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\nine_patch_rect.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\nine_patch_rect.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
@@ -3300,18 +3168,6 @@
         "output": "godot-cpp\\gen\\src\\classes\\open_xr_analog_threshold_modifier.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_anchor_tracker.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_anchor_tracker.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_anchor_tracker.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_anchor_tracker.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_android_thread_settings_extension.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_android_thread_settings_extension.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_android_thread_settings_extension.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_android_thread_settings_extension.windows.template_debug.x86_64.obj"
-    },
-    {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_binding_modifier.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_binding_modifier.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\open_xr_binding_modifier.cpp",
@@ -3364,12 +3220,6 @@
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\open_xr_extension_wrapper_extension.cpp",
         "output": "godot-cpp\\gen\\src\\classes\\open_xr_extension_wrapper_extension.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_frame_synthesis_extension.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_frame_synthesis_extension.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_frame_synthesis_extension.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_frame_synthesis_extension.windows.template_debug.x86_64.obj"
     },
     {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_future_extension.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_future_extension.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
@@ -3444,18 +3294,6 @@
         "output": "godot-cpp\\gen\\src\\classes\\open_xr_interface.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_marker_tracker.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_marker_tracker.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_marker_tracker.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_marker_tracker.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_plane_tracker.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_plane_tracker.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_plane_tracker.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_plane_tracker.windows.template_debug.x86_64.obj"
-    },
-    {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_render_model.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_render_model.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\open_xr_render_model.cpp",
@@ -3472,168 +3310,6 @@
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\open_xr_render_model_manager.cpp",
         "output": "godot-cpp\\gen\\src\\classes\\open_xr_render_model_manager.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_anchor_capability.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_anchor_capability.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_anchor_capability.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_anchor_capability.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_anchor.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_anchor.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_anchor.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_anchor.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_april_tag.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_april_tag.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_april_tag.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_april_tag.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_aruco.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_aruco.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_aruco.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_aruco.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_base_header.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_base_header.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_base_header.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_base_header.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_micro_qr_code.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_micro_qr_code.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_micro_qr_code.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_micro_qr_code.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_plane_tracking.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_plane_tracking.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_plane_tracking.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_plane_tracking.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_qr_code.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_qr_code.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_qr_code.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_capability_configuration_qr_code.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_component_anchor_list.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_anchor_list.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_anchor_list.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_anchor_list.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_component_bounded2d_list.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_bounded2d_list.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_bounded2d_list.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_bounded2d_list.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_component_bounded3d_list.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_bounded3d_list.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_bounded3d_list.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_bounded3d_list.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_component_data.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_data.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_data.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_data.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_component_marker_list.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_marker_list.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_marker_list.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_marker_list.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_component_mesh2d_list.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_mesh2d_list.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_mesh2d_list.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_mesh2d_list.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_component_mesh3d_list.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_mesh3d_list.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_mesh3d_list.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_mesh3d_list.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_component_parent_list.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_parent_list.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_parent_list.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_parent_list.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_component_persistence_list.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_persistence_list.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_persistence_list.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_persistence_list.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_component_plane_alignment_list.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_plane_alignment_list.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_plane_alignment_list.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_plane_alignment_list.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_component_plane_semantic_label_list.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_plane_semantic_label_list.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_plane_semantic_label_list.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_plane_semantic_label_list.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_component_polygon2d_list.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_polygon2d_list.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_polygon2d_list.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_component_polygon2d_list.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_context_persistence_config.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_context_persistence_config.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_context_persistence_config.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_context_persistence_config.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_entity_extension.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_entity_extension.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_entity_extension.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_entity_extension.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_entity_tracker.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_entity_tracker.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_entity_tracker.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_entity_tracker.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_marker_tracking_capability.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_marker_tracking_capability.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_marker_tracking_capability.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_marker_tracking_capability.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_plane_tracking_capability.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_plane_tracking_capability.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_plane_tracking_capability.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_plane_tracking_capability.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_spatial_query_result_data.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_spatial_query_result_data.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_query_result_data.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_spatial_query_result_data.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_structure_base.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_structure_base.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\open_xr_structure_base.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\open_xr_structure_base.windows.template_debug.x86_64.obj"
     },
     {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\open_xr_visibility_mask.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\open_xr_visibility_mask.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
@@ -4140,18 +3816,6 @@
         "output": "godot-cpp\\gen\\src\\classes\\quad_occluder3d.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\rd_acceleration_structure_geometry.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\rd_acceleration_structure_geometry.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\rd_acceleration_structure_geometry.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\rd_acceleration_structure_geometry.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\rd_acceleration_structure_instance.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\rd_acceleration_structure_instance.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\rd_acceleration_structure_instance.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\rd_acceleration_structure_instance.windows.template_debug.x86_64.obj"
-    },
-    {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\rd_attachment_format.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\rd_attachment_format.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\rd_attachment_format.cpp",
@@ -4162,12 +3826,6 @@
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\rd_framebuffer_pass.cpp",
         "output": "godot-cpp\\gen\\src\\classes\\rd_framebuffer_pass.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\rd_hit_group.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\rd_hit_group.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\rd_hit_group.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\rd_hit_group.windows.template_debug.x86_64.obj"
     },
     {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\rd_pipeline_color_blend_state.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\rd_pipeline_color_blend_state.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
@@ -4198,12 +3856,6 @@
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\rd_pipeline_rasterization_state.cpp",
         "output": "godot-cpp\\gen\\src\\classes\\rd_pipeline_rasterization_state.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\rd_pipeline_shader.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\rd_pipeline_shader.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\rd_pipeline_shader.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\rd_pipeline_shader.windows.template_debug.x86_64.obj"
     },
     {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\rd_pipeline_specialization_constant.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\rd_pipeline_specialization_constant.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
@@ -4890,12 +4542,6 @@
         "output": "godot-cpp\\gen\\src\\classes\\slider_joint3d.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\socket_server.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\socket_server.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\socket_server.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\socket_server.windows.template_debug.x86_64.obj"
-    },
-    {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\soft_body3d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\soft_body3d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\soft_body3d.cpp",
@@ -4924,12 +4570,6 @@
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\spin_box.cpp",
         "output": "godot-cpp\\gen\\src\\classes\\spin_box.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\spline_ik3d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\spline_ik3d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\spline_ik3d.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\spline_ik3d.windows.template_debug.x86_64.obj"
     },
     {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\split_container.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\split_container.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
@@ -5052,12 +4692,6 @@
         "output": "godot-cpp\\gen\\src\\classes\\stream_peer_gzip.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\stream_peer_socket.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\stream_peer_socket.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\stream_peer_socket.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\stream_peer_socket.windows.template_debug.x86_64.obj"
-    },
-    {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\stream_peer_tcp.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\stream_peer_tcp.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\stream_peer_tcp.cpp",
@@ -5068,12 +4702,6 @@
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\stream_peer_tls.cpp",
         "output": "godot-cpp\\gen\\src\\classes\\stream_peer_tls.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\stream_peer_uds.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\stream_peer_uds.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\stream_peer_uds.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\stream_peer_uds.windows.template_debug.x86_64.obj"
     },
     {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\style_box.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\style_box.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
@@ -5448,22 +5076,10 @@
         "output": "godot-cpp\\gen\\src\\classes\\tweener.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\two_bone_ik3d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\two_bone_ik3d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\two_bone_ik3d.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\two_bone_ik3d.windows.template_debug.x86_64.obj"
-    },
-    {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\udp_server.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\udp_server.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\udp_server.cpp",
         "output": "godot-cpp\\gen\\src\\classes\\udp_server.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\uds_server.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\uds_server.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\uds_server.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\uds_server.windows.template_debug.x86_64.obj"
     },
     {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\upnp.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\upnp.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
@@ -5572,12 +5188,6 @@
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "godot-cpp\\gen\\src\\classes\\viewport_texture.cpp",
         "output": "godot-cpp\\gen\\src\\classes\\viewport_texture.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fogodot-cpp\\gen\\src\\classes\\virtual_joystick.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\virtual_joystick.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "godot-cpp\\gen\\src\\classes\\virtual_joystick.cpp",
-        "output": "godot-cpp\\gen\\src\\classes\\virtual_joystick.windows.template_debug.x86_64.obj"
     },
     {
         "command": "cl /Fogodot-cpp\\gen\\src\\classes\\visible_on_screen_enabler2d.windows.template_debug.x86_64.obj /c godot-cpp\\gen\\src\\classes\\visible_on_screen_enabler2d.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
@@ -6534,22 +6144,22 @@
         "output": "godot-cpp\\gen\\src\\variant\\utility_functions.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fosrc\\atom_data.windows.template_debug.x86_64.obj /c src\\atom_data.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
+        "command": "cl /Fosrc\\atom.windows.template_debug.x86_64.obj /c src\\atom.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "src\\atom_data.cpp",
-        "output": "src\\atom_data.windows.template_debug.x86_64.obj"
+        "file": "src\\atom.cpp",
+        "output": "src\\atom.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fosrc\\atom_data.windows.template_debug.x86_64.obj /c src\\atom_data.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
+        "command": "cl /Fosrc\\bond.windows.template_debug.x86_64.obj /c src\\bond.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "src\\atom_data.cpp",
-        "output": "src\\atom_data.windows.template_debug.x86_64.obj"
+        "file": "src\\bond.cpp",
+        "output": "src\\bond.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fosrc\\molecule_import_plugin.windows.template_debug.x86_64.obj /c src\\molecule_import_plugin.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
+        "command": "cl /Fosrc\\molecule_data.windows.template_debug.x86_64.obj /c src\\molecule_data.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "src\\molecule_import_plugin.cpp",
-        "output": "src\\molecule_import_plugin.windows.template_debug.x86_64.obj"
+        "file": "src\\molecule_data.cpp",
+        "output": "src\\molecule_data.windows.template_debug.x86_64.obj"
     },
     {
         "command": "cl /Fosrc\\molecule_import_plugin.windows.template_debug.x86_64.obj /c src\\molecule_import_plugin.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
@@ -6564,9 +6174,9 @@
         "output": "src\\register_types.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fosrc\\register_types.windows.template_debug.x86_64.obj /c src\\register_types.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
+        "command": "cl /Fosrc\\resonance_structure.windows.template_debug.x86_64.obj /c src\\resonance_structure.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "src\\register_types.cpp",
-        "output": "src\\register_types.windows.template_debug.x86_64.obj"
+        "file": "src\\resonance_structure.cpp",
+        "output": "src\\resonance_structure.windows.template_debug.x86_64.obj"
     }
 ]
