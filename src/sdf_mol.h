@@ -4,8 +4,8 @@
 #include <godot_cpp/variant/array.hpp>
 
 namespace godot {
-    class MoleculeData : public Resource {
-        GDCLASS(MoleculeData, Resource)
+    class SDFMol : public Resource {
+        GDCLASS(SDFMol, Resource)
 
     private:
         Array atoms;
@@ -16,8 +16,8 @@ namespace godot {
         static void _bind_methods();
 
     public:
-        MoleculeData() = default;
-        ~MoleculeData() = default;
+        SDFMol() = default;
+        ~SDFMol() = default;
 
         void set_atoms(const Array& p_atoms);
         Array get_atoms() const;

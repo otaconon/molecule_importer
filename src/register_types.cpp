@@ -1,13 +1,13 @@
 #include "atom.h"
 #include "bond.h"
-#include "molecule_data.h"
+#include "sdf_mol.h"
 #include "molecule_editor_plugin.h"
 #include "molecule_import_plugin.h"
 
 namespace godot {
 void initialize_importer_types(ModuleInitializationLevel p_level) {
 	if (p_level == MODULE_INITIALIZATION_LEVEL_SCENE) {
-		ClassDB::register_class<MoleculeData>();
+		ClassDB::register_class<SDFMol>();
 		ClassDB::register_class<Atom>();
 		ClassDB::register_class<Bond>();
 		ClassDB::register_class<ResonanceStructure>();

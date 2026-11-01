@@ -16,7 +16,7 @@
 
 #include "atom.h"
 #include "bond.h"
-#include "molecule_data.h"
+#include "sdf_mol.h"
 #include "resonance_structure.h"
 
 static godot::Array load_atom_data(std::shared_ptr<RDKit::ROMol> p_mol) {
@@ -121,8 +121,8 @@ static godot::Array load_resonance_data(std::shared_ptr<RDKit::ROMol> p_mol) {
     return resonance_structures;
 }
 
-static godot::Ref<godot::MoleculeData> load_molecule_data(const std::string &p_file_path) {
-    godot::Ref<godot::MoleculeData> molecule_data;
+static godot::Ref<godot::SDFMol> load_sdf_mol(const std::string &p_file_path) {
+    godot::Ref<godot::SDFMol> molecule_data;
     molecule_data.instantiate();
 
 	RDKit::SDMolSupplier supplier(p_file_path, false, false, false);
