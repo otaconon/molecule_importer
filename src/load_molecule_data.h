@@ -19,10 +19,10 @@
 #include "mol.h"
 #include "resonance_structure.h"
 
-static godot::Array load_atom_data(std::shared_ptr<RDKit::ROMol> p_mol) {
+static godot::Array load_atom_data(const RDKit::ROMol &p_mol) {
     godot::Array atom_data{};
-    const RDKit::Conformer &conf = p_mol->getConformer();
-    for (const auto atom : p_mol->atoms()) {
+    const RDKit::Conformer &conf = p_mol.getConformer();
+    for (const auto atom : p_mol.atoms()) {
       godot::String symbol(atom->getSymbol().c_str());
       RDGeom::Point3D pos = conf.getAtomPos(atom->getIdx());
 
@@ -37,10 +37,10 @@ static godot::Array load_atom_data(std::shared_ptr<RDKit::ROMol> p_mol) {
     return atom_data;
 }
 
-static godot::Array load_bond_data(std::shared_ptr<RDKit::ROMol> p_mol) {
+static godot::Array load_bond_data(const RDKit::ROMol &p_mol) {
 	godot::Array bond_data;
 
-    for (const auto bond : p_mol->bonds()) {
+    for (const auto bond : p_mol.bonds()) {
         int atom_a_idx = bond->getBeginAtomIdx();
         int atom_b_idx = bond->getEndAtomIdx();
 
@@ -71,7 +71,7 @@ static godot::Array load_bond_data(std::shared_ptr<RDKit::ROMol> p_mol) {
 	return bond_data;
 }
 
-static godot::Array load_resonance_data(std::shared_ptr<RDKit::ROMol> p_mol) {
+static godot::Array load_resonance_data(RDKit::ROMol &p_mol) {
     unsigned int res_flags =
     RDKit::ResonanceMolSupplier::KEKULE_ALL |
     RDKit::ResonanceMolSupplier::ALLOW_CHARGE_SEPARATION |
@@ -79,9 +79,9 @@ static godot::Array load_resonance_data(std::shared_ptr<RDKit::ROMol> p_mol) {
 
     godot::Array resonance_structures;
     unsigned int max_structs = 10;
-    RDKit::ResonanceMolSupplier res_supplier(*p_mol, res_flags, max_structs);
+    RDKit::ResonanceMolSupplier res_supplier(p_mol, res_flags, max_structs);
     while (!res_supplier.atEnd()) {
-        std::unique_ptr<RDKit::ROMol> res_mol(res_supplier.next());
+        auto res_mol(res_supplier.next());
         if (!res_mol) continue;
 
         godot::Array charges;
@@ -122,27 +122,35 @@ static godot::Array load_resonance_data(std::shared_ptr<RDKit::ROMol> p_mol) {
 }
 
 static godot::Ref<godot::Mol> load_sdf_mol(const std::string &p_file_path) {
-    godot::Ref<godot::Mol> molecule_data;
-    molecule_data.instantiate();
+    godot::Ref<godot::Mol> mol;
+    mol.instantiate();
 
 	RDKit::SDMolSupplier supplier(p_file_path, false, false, false);
     // TODO: Handle more than one molecule??
 	while (!supplier.atEnd()) {
-		std::shared_ptr<RDKit::ROMol> mol(supplier.next());
-        if (!mol || mol->getNumConformers() == 0) {
+		auto rd_mol = supplier.next();
+        if (!rd_mol || rd_mol->getNumConformers() == 0) {
             continue;
         }
 
         unsigned int failed_op = 0;
         unsigned int sanitize_ops = RDKit::MolOps::SANITIZE_ALL;
         sanitize_ops ^= RDKit::MolOps::SANITIZE_SETAROMATICITY;
-        RDKit::MolOps::sanitizeMol(static_cast<RDKit::RWMol &>(*mol), failed_op, sanitize_ops);
+        RDKit::MolOps::sanitizeMol(static_cast<RDKit::RWMol &>(*rd_mol), failed_op, sanitize_ops);
 
-        molecule_data->set_atoms(load_atom_data(mol));
-        molecule_data->set_bonds(load_bond_data(mol));
-        molecule_data->set_resonance_structures(load_resonance_data(mol));
+        mol->set_atoms(load_atom_data(*rd_mol));
+        mol->set_bonds(load_bond_data(*rd_mol));
+        mol->set_resonance_structures(load_resonance_data(*rd_mol));
     }
 
-    return molecule_data;
+    return mol;
 }
 
+static godot::Ref<godot::Mol> load_smiles_mol(const std::string &p_smiles) {
+    godot::Ref<godot::Mol> mol;
+    mol.instantiate();
+
+    auto rd_mol = RDKit::SmilesToMol(p_smiles);
+    mol->set_atoms(load_atom_data(*rd_mol));
+    mol->set_atoms(load_bond_data(*rd_mol));
+}
