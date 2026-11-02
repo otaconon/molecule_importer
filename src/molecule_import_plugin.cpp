@@ -1,6 +1,6 @@
 #include "molecule_import_plugin.h"
 
-#include "sdf_mol.h"
+#include "mol.h"
 
 namespace godot {
 void MoleculeImportPlugin::_bind_methods() {
@@ -55,7 +55,7 @@ Error MoleculeImportPlugin::_import(
 		const TypedArray<String> &p_gen_files) const {
 	Error r_error = OK;
 
-	Ref<SDFMol> molecule_data = import_molecule_data(p_source_file, r_error);
+	Ref<Mol> molecule_data = import_molecule_data(p_source_file, r_error);
 	if (r_error != OK) {
 		return r_error;
 	}
@@ -64,23 +64,20 @@ Error MoleculeImportPlugin::_import(
 	return ResourceSaver::get_singleton()->save(molecule_data, out_path, ResourceSaver::FLAG_BUNDLE_RESOURCES);
 }
 
-Ref<SDFMol> MoleculeImportPlugin::import_molecule_data(const String &p_source_file, Error &r_error) const {
-	Ref<SDFMol> molecule_data;
-	String real_path =
-			ProjectSettings::get_singleton()->globalize_path(p_source_file);
+Ref<Mol> MoleculeImportPlugin::import_molecule_data(const String &p_source_file, Error &r_error) const {
+	Ref<Mol> molecule_data;
+	String real_path = ProjectSettings::get_singleton()->globalize_path(p_source_file);
 	std::string file_path = real_path.utf8().get_data();
 	try {
 		molecule_data = load_sdf_mol(file_path);
 	} catch (const std::exception &e) {
-		UtilityFunctions::printerr("Failed to parse '", p_source_file,
-				"': ", e.what());
+		UtilityFunctions::printerr("Failed to parse '", p_source_file, "': ", e.what());
 		r_error = ERR_PARSE_ERROR;
-		return Ref<SDFMol>();
+		return Ref<Mol>();
 	} catch (...) {
-		UtilityFunctions::printerr("Failed to parse '", p_source_file,
-				"': unknown error");
+		UtilityFunctions::printerr("Failed to parse '", p_source_file, "': unknown error");
 		r_error = ERR_PARSE_ERROR;
-		return Ref<SDFMol>();
+		return Ref<Mol>();
 	}
 
 	return molecule_data;
