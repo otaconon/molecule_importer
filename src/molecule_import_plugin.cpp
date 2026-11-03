@@ -22,6 +22,7 @@ PackedStringArray MoleculeImportPlugin::_get_recognized_extensions() const {
 	PackedStringArray exts;
 	exts.push_back("mol");
 	exts.push_back("sdf");
+	exts.push_back("smi");
 	return exts;
 }
 
@@ -30,16 +31,17 @@ String MoleculeImportPlugin::_get_save_extension() const {
 }
 
 String MoleculeImportPlugin::_get_resource_type() const {
-	return "MoleculeData";
+	return "Mol";
 }
 
 int32_t MoleculeImportPlugin::_get_preset_count() const {
-	return 0;
+	return 1;
 }
 
 TypedArray<Dictionary>
 MoleculeImportPlugin::_get_import_options(const String &p_path, int32_t p_preset) const {
-	return {};
+	TypedArray<Dictionary> options;
+	return options;
 }
 
 bool MoleculeImportPlugin::_get_option_visibility(
@@ -52,18 +54,52 @@ Error MoleculeImportPlugin::_import(
 		const String &p_source_file, const String &p_save_path,
 		const Dictionary &p_options, const TypedArray<String> &p_platform_variants,
 		const TypedArray<String> &p_gen_files) const {
-	Error r_error = OK;
+	const String ext = p_source_file.get_extension().to_lower();
 
-	const Ref<Mol> molecule_data = import_molecule_data(p_source_file, r_error);
+	Ref<Mol> mol;
+	Error r_error = OK;
+	if (ext == "smi") {
+		UtilityFunctions::print("Importing smiles molecule: ", p_source_file);
+		mol = import_smiles_mol(p_source_file, r_error);
+	}
+	else {
+		UtilityFunctions::print("Importing sdf molecule: ", p_source_file);
+		mol = import_sdf_mol(p_source_file, r_error);
+	}
+
 	if (r_error != OK) {
 		return r_error;
 	}
 
+	if (mol.is_null()) {
+		UtilityFunctions::printerr("Import produced no molecule: ", p_source_file);
+		return ERR_PARSE_ERROR;
+	}
+
 	const String out_path = vformat("%s.%s", p_save_path, _get_save_extension());
-	return ResourceSaver::get_singleton()->save(molecule_data, out_path, ResourceSaver::FLAG_BUNDLE_RESOURCES);
+	return ResourceSaver::get_singleton()->save(mol, out_path, ResourceSaver::FLAG_BUNDLE_RESOURCES);
 }
 
-Ref<Mol> MoleculeImportPlugin::import_molecule_data(const String &p_source_file, Error &r_error) {
+Ref<Mol> MoleculeImportPlugin::import_smiles_mol(const String &p_source_file, Error &r_error) {
+	Ref<Mol> molecule_data;
+	const String real_path = ProjectSettings::get_singleton()->globalize_path(p_source_file);
+	const std::string file_path = real_path.utf8().get_data();
+	try {
+		molecule_data = load_smiles_mol(file_path);
+	} catch (const std::exception &e) {
+		UtilityFunctions::printerr("Failed to parse '", p_source_file, "': ", e.what());
+		r_error = ERR_PARSE_ERROR;
+		return {};
+	} catch (...) {
+		UtilityFunctions::printerr("Failed to parse '", p_source_file, "': unknown error");
+		r_error = ERR_PARSE_ERROR;
+		return {};
+	}
+
+	return molecule_data;
+}
+
+Ref<Mol> MoleculeImportPlugin::import_sdf_mol(const String &p_source_file, Error &r_error) {
 	Ref<Mol> molecule_data;
 	const String real_path = ProjectSettings::get_singleton()->globalize_path(p_source_file);
 	const std::string file_path = real_path.utf8().get_data();

@@ -4,6 +4,7 @@
 #include <GraphMol/FileParsers/FileParsers.h>
 #include <GraphMol/FileParsers/MolSupplier.h>
 #include <GraphMol/Resonance.h>
+#include <GraphMol/MolDraw2D/MolDraw2DSVG.h>
 
 #include <godot_cpp/classes/project_settings.hpp>
 #include <godot_cpp/variant/variant.hpp>
@@ -15,6 +16,7 @@
 #include "bond.h"
 #include "mol.h"
 #include "resonance_structure.h"
+#include "godot_cpp/classes/image_texture.hpp"
 
 static godot::Array load_atom_data(const RDKit::ROMol &p_mol) {
     godot::Array atom_data{};
@@ -105,7 +107,7 @@ static godot::Array load_resonance_data(RDKit::ROMol &p_mol) {
                     bond_types[bond_idx] = godot::Bond::TRIPLE;
                     break;
                 default:
-                    godot::UtilityFunctions::push_warning(
+                    godot::UtilityFunctions::printerr(
                         "Unhandled bond type in molecule: ",
                         godot::String::utf8(p_mol.getProp<std::string>("_Name").c_str()));
                     break;
@@ -148,11 +150,43 @@ static godot::Ref<godot::Mol> load_sdf_mol(const std::string &p_file_path) {
     return mol;
 }
 
-static godot::Ref<godot::Mol> load_smiles_mol(const std::string &p_smiles) {
+static godot::Ref<godot::Texture2D> load_texture(RDKit::ROMol &p_mol) {
+    RDKit::MolDraw2DSVG mol_draw(512, 512);
+    mol_draw.drawOptions().clearBackground = false;
+    mol_draw.drawMolecule(p_mol);
+    mol_draw.finishDrawing();
+    std::string png = mol_draw.getDrawingText();
+
+    godot::PackedByteArray bytes;
+    bytes.resize(png.size());
+    memcpy(bytes.ptrw(), png.data(), png.size());
+
+    godot::Ref<godot::Image> img;
+    img.instantiate();
+    img->load_png_from_buffer(bytes);
+
+    return godot::ImageTexture::create_from_image(img);
+}
+
+static godot::Ref<godot::Mol> load_smiles_mol(const std::string &p_file_path) {
     godot::Ref<godot::Mol> mol;
     mol.instantiate();
+	RDKit::SmilesMolSupplier supplier(p_file_path, "\t", 0, -1, false);
+	// TODO: Handle more than one molecule??
+	while (!supplier.atEnd()) {
+		const auto rd_mol = supplier.next();
+		if (!rd_mol || rd_mol->getNumConformers() == 0) {
+			continue;
+		}
 
-    const auto rd_mol = RDKit::SmilesToMol(p_smiles);
-    mol->set_atoms(load_atom_data(*rd_mol));
-    mol->set_atoms(load_bond_data(*rd_mol));
+		unsigned int failed_op = 0;
+		unsigned int sanitize_ops = RDKit::MolOps::SANITIZE_ALL;
+		sanitize_ops ^= RDKit::MolOps::SANITIZE_SETAROMATICITY;
+		RDKit::MolOps::sanitizeMol(dynamic_cast<RDKit::RWMol &>(*rd_mol), failed_op, sanitize_ops);
+
+		mol->set_atoms(load_atom_data(*rd_mol));
+		mol->set_atoms(load_bond_data(*rd_mol));
+		mol->set_texture(load_texture(*rd_mol));
+	}
+    return mol;
 }

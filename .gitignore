@@ -3,3 +3,5 @@ bin/bin/
 .vscode/
 **/*.obj
 .idea/
+build/
+/cmake-build-relwithdebinfo-visual-studio

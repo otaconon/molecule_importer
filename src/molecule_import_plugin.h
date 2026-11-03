@@ -13,7 +13,8 @@ class MoleculeImportPlugin : public EditorImportPlugin {
 protected:
 	static void _bind_methods();
 
-	static Ref<Mol> import_molecule_data(const String &p_source_file, Error &r_error);
+	static Ref<Mol> import_smiles_mol(const String &p_source_file, Error &r_error);
+	static Ref<Mol> import_sdf_mol(const String &p_source_file, Error &r_error);
 
 public:
 	MoleculeImportPlugin() = default;
