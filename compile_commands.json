@@ -6144,39 +6144,39 @@
         "output": "godot-cpp\\gen\\src\\variant\\utility_functions.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fosrc\\atom.windows.template_debug.x86_64.obj /c src\\atom.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
+        "command": "cl /Fobuild\\obj\\atom.windows.template_debug.x86_64.obj /c src\\atom.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "src\\atom.cpp",
-        "output": "src\\atom.windows.template_debug.x86_64.obj"
+        "output": "build\\obj\\atom.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fosrc\\bond.windows.template_debug.x86_64.obj /c src\\bond.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
+        "command": "cl /Fobuild\\obj\\bond.windows.template_debug.x86_64.obj /c src\\bond.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "src\\bond.cpp",
-        "output": "src\\bond.windows.template_debug.x86_64.obj"
+        "output": "build\\obj\\bond.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fosrc\\molecule_import_plugin.windows.template_debug.x86_64.obj /c src\\molecule_import_plugin.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
+        "command": "cl /Fobuild\\obj\\mol.windows.template_debug.x86_64.obj /c src\\mol.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
+        "directory": "C:\\dev\\games\\molecule_importer",
+        "file": "src\\mol.cpp",
+        "output": "build\\obj\\mol.windows.template_debug.x86_64.obj"
+    },
+    {
+        "command": "cl /Fobuild\\obj\\molecule_import_plugin.windows.template_debug.x86_64.obj /c src\\molecule_import_plugin.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "src\\molecule_import_plugin.cpp",
-        "output": "src\\molecule_import_plugin.windows.template_debug.x86_64.obj"
+        "output": "build\\obj\\molecule_import_plugin.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fosrc\\register_types.windows.template_debug.x86_64.obj /c src\\register_types.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
+        "command": "cl /Fobuild\\obj\\register_types.windows.template_debug.x86_64.obj /c src\\register_types.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "src\\register_types.cpp",
-        "output": "src\\register_types.windows.template_debug.x86_64.obj"
+        "output": "build\\obj\\register_types.windows.template_debug.x86_64.obj"
     },
     {
-        "command": "cl /Fosrc\\resonance_structure.windows.template_debug.x86_64.obj /c src\\resonance_structure.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
+        "command": "cl /Fobuild\\obj\\resonance_structure.windows.template_debug.x86_64.obj /c src\\resonance_structure.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
         "directory": "C:\\dev\\games\\molecule_importer",
         "file": "src\\resonance_structure.cpp",
-        "output": "src\\resonance_structure.windows.template_debug.x86_64.obj"
-    },
-    {
-        "command": "cl /Fosrc\\sdf_mol.windows.template_debug.x86_64.obj /c src\\sdf_mol.cpp /TP /std:c++17 /Zc:__cplusplus /std:c++20 /nologo /utf-8 /MT /O2 /DTYPED_METHOD_BIND /DNOMINMAX /DWINDOWS_ENABLED /D_HAS_EXCEPTIONS=0 /DTHREADS_ENABLED /DDEBUG_ENABLED /DNDEBUG /DGDEXTENSION /DRDKIT_DYN_LINK /Igodot-cpp\\include /Igodot-cpp\\gen\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include /IC:\\dev\\tools\\miniconda3\\envs\\resonance-dev\\Library\\include\\rdkit",
-        "directory": "C:\\dev\\games\\molecule_importer",
-        "file": "src\\sdf_mol.cpp",
-        "output": "src\\sdf_mol.windows.template_debug.x86_64.obj"
+        "output": "build\\obj\\resonance_structure.windows.template_debug.x86_64.obj"
     }
 ]

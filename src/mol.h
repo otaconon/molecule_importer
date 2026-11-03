@@ -21,21 +21,21 @@ protected:
 
 public:
 	Mol() = default;
-	~Mol() = default;
+	~Mol() override = default;
 
 	void set_atoms(const Array &p_atoms);
-	Array get_atoms() const;
+	[[nodiscard]] Array get_atoms() const;
 
 	void set_bonds(const Array &p_bonds);
-	Array get_bonds() const;
+	[[nodiscard]] Array get_bonds() const;
 
 	void set_resonance_structures(const Array &p_resonance_structures);
-	Array get_resonance_structures() const;
+	[[nodiscard]] Array get_resonance_structures() const;
 
 	void set_smiles(const String &p_smiles);
-	String get_smiles() const;
+	[[nodiscard]] String get_smiles() const;
 
 	void set_texture(const Ref<Texture2D> &p_texture);
-	Ref<Texture2D> get_texture() const;
+	[[nodiscard]] Ref<Texture2D> get_texture() const;
 };
 } //namespace godot

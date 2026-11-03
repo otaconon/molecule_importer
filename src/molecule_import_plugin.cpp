@@ -38,9 +38,8 @@ int32_t MoleculeImportPlugin::_get_preset_count() const {
 }
 
 TypedArray<Dictionary>
-MoleculeImportPlugin::_get_import_options(const String &p_path,
-		int32_t p_preset) const {
-	return TypedArray<Dictionary>();
+MoleculeImportPlugin::_get_import_options(const String &p_path, int32_t p_preset) const {
+	return {};
 }
 
 bool MoleculeImportPlugin::_get_option_visibility(
@@ -55,29 +54,29 @@ Error MoleculeImportPlugin::_import(
 		const TypedArray<String> &p_gen_files) const {
 	Error r_error = OK;
 
-	Ref<Mol> molecule_data = import_molecule_data(p_source_file, r_error);
+	const Ref<Mol> molecule_data = import_molecule_data(p_source_file, r_error);
 	if (r_error != OK) {
 		return r_error;
 	}
 
-	String out_path = vformat("%s.%s", p_save_path, _get_save_extension());
+	const String out_path = vformat("%s.%s", p_save_path, _get_save_extension());
 	return ResourceSaver::get_singleton()->save(molecule_data, out_path, ResourceSaver::FLAG_BUNDLE_RESOURCES);
 }
 
-Ref<Mol> MoleculeImportPlugin::import_molecule_data(const String &p_source_file, Error &r_error) const {
+Ref<Mol> MoleculeImportPlugin::import_molecule_data(const String &p_source_file, Error &r_error) {
 	Ref<Mol> molecule_data;
-	String real_path = ProjectSettings::get_singleton()->globalize_path(p_source_file);
-	std::string file_path = real_path.utf8().get_data();
+	const String real_path = ProjectSettings::get_singleton()->globalize_path(p_source_file);
+	const std::string file_path = real_path.utf8().get_data();
 	try {
 		molecule_data = load_sdf_mol(file_path);
 	} catch (const std::exception &e) {
 		UtilityFunctions::printerr("Failed to parse '", p_source_file, "': ", e.what());
 		r_error = ERR_PARSE_ERROR;
-		return Ref<Mol>();
+		return {};
 	} catch (...) {
 		UtilityFunctions::printerr("Failed to parse '", p_source_file, "': unknown error");
 		r_error = ERR_PARSE_ERROR;
-		return Ref<Mol>();
+		return {};
 	}
 
 	return molecule_data;

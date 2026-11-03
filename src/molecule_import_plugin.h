@@ -13,27 +13,27 @@ class MoleculeImportPlugin : public EditorImportPlugin {
 protected:
 	static void _bind_methods();
 
-	Ref<Mol> import_molecule_data(const String &p_source_file, Error &r_error) const;
+	static Ref<Mol> import_molecule_data(const String &p_source_file, Error &r_error);
 
 public:
 	MoleculeImportPlugin() = default;
-	~MoleculeImportPlugin() = default;
+	~MoleculeImportPlugin() override = default;
 
-	String _get_importer_name() const override;
-	String _get_visible_name() const override;
-	PackedStringArray _get_recognized_extensions() const override;
-	String _get_save_extension() const override;
-	String _get_resource_type() const override;
+	[[nodiscard]] String _get_importer_name() const override;
+	[[nodiscard]] String _get_visible_name() const override;
+	[[nodiscard]] PackedStringArray _get_recognized_extensions() const override;
+	[[nodiscard]] String _get_save_extension() const override;
+	[[nodiscard]] String _get_resource_type() const override;
 
-	int32_t _get_preset_count() const override;
-	String _get_preset_name(int32_t p_preset) const override;
-	TypedArray<Dictionary> _get_import_options(const String &p_path,
+	[[nodiscard]] int32_t _get_preset_count() const override;
+	[[nodiscard]] String _get_preset_name(int32_t p_preset) const override;
+	[[nodiscard]] TypedArray<Dictionary> _get_import_options(const String &p_path,
 			int32_t p_preset) const override;
-	bool _get_option_visibility(const String &p_path,
+	[[nodiscard]] bool _get_option_visibility(const String &p_path,
 			const StringName &p_option_name,
 			const Dictionary &p_options) const override;
 
-	Error _import(const String &p_source_file, const String &p_save_path,
+	[[nodiscard]] Error _import(const String &p_source_file, const String &p_save_path,
 			const Dictionary &p_options,
 			const TypedArray<String> &p_platform_variants,
 			const TypedArray<String> &p_gen_files) const override;

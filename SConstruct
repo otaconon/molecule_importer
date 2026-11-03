@@ -3,7 +3,8 @@ import sys
 import glob
 
 env = SConscript("godot-cpp/SConstruct")
-sources = Glob("src/*.cpp")
+env.VariantDir("build/obj", "src", duplicate=0)
+sources = Glob("build/obj/*.cpp")
 
 if sys.platform == "win32":
     env.Append(CXXFLAGS=["/std:c++20"])

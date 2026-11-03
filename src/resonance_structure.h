@@ -18,13 +18,13 @@ protected:
 
 public:
 	ResonanceStructure() = default;
-	~ResonanceStructure() = default;
+	~ResonanceStructure() override = default;
 
 	void set_charges(const Array &p_charges);
-	Array get_charges() const;
+	[[nodiscard]] Array get_charges() const;
 
 	void set_bond_types(const Array &p_bond_types);
-	Array get_bond_types() const;
+	[[nodiscard]] Array get_bond_types() const;
 };
 } //namespace godot
 

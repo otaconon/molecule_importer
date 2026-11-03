@@ -3,12 +3,9 @@
 #include <Geometry/point.h>
 #include <GraphMol/FileParsers/FileParsers.h>
 #include <GraphMol/FileParsers/MolSupplier.h>
-#include <GraphMol/GraphMol.h>
-#include <GraphMol/MolOps.h>
 #include <GraphMol/Resonance.h>
 
 #include <godot_cpp/classes/project_settings.hpp>
-#include <godot_cpp/classes/resource_saver.hpp>
 #include <godot_cpp/variant/variant.hpp>
 #include <godot_cpp/variant/utility_functions.hpp>
 
@@ -24,7 +21,7 @@ static godot::Array load_atom_data(const RDKit::ROMol &p_mol) {
     const RDKit::Conformer &conf = p_mol.getConformer();
     for (const auto atom : p_mol.atoms()) {
       godot::String symbol(atom->getSymbol().c_str());
-      RDGeom::Point3D pos = conf.getAtomPos(atom->getIdx());
+      const RDGeom::Point3D &pos = conf.getAtomPos(atom->getIdx());
 
       godot::Ref<godot::Atom> new_atom;
       new_atom.instantiate();
@@ -41,8 +38,8 @@ static godot::Array load_bond_data(const RDKit::ROMol &p_mol) {
 	godot::Array bond_data;
 
     for (const auto bond : p_mol.bonds()) {
-        int atom_a_idx = bond->getBeginAtomIdx();
-        int atom_b_idx = bond->getEndAtomIdx();
+        const uint16_t atom_a_idx = bond->getBeginAtomIdx();
+        const uint16_t atom_b_idx = bond->getEndAtomIdx();
 
         godot::Bond::BondType bond_type;
         switch (bond->getBondType()) {
@@ -72,23 +69,23 @@ static godot::Array load_bond_data(const RDKit::ROMol &p_mol) {
 }
 
 static godot::Array load_resonance_data(RDKit::ROMol &p_mol) {
-    unsigned int res_flags =
+    constexpr unsigned int res_flags =
     RDKit::ResonanceMolSupplier::KEKULE_ALL |
     RDKit::ResonanceMolSupplier::ALLOW_CHARGE_SEPARATION |
     RDKit::ResonanceMolSupplier::ALLOW_INCOMPLETE_OCTETS;
 
     godot::Array resonance_structures;
-    unsigned int max_structs = 10;
+    constexpr uint16_t max_structs = 10;
     RDKit::ResonanceMolSupplier res_supplier(p_mol, res_flags, max_structs);
     while (!res_supplier.atEnd()) {
-        auto res_mol(res_supplier.next());
+        const auto res_mol(res_supplier.next());
         if (!res_mol) continue;
 
         godot::Array charges;
         charges.resize(res_mol->atoms().size());
         for (const auto atom: res_mol->atoms()) {
-            unsigned int atom_idx = atom->getIdx();
-            int formal_charge = atom->getFormalCharge();
+            const auto atom_idx = atom->getIdx();
+            const auto formal_charge = atom->getFormalCharge();
             charges[atom_idx] = formal_charge;
         }
 
@@ -106,6 +103,11 @@ static godot::Array load_resonance_data(RDKit::ROMol &p_mol) {
                     break;
                 case RDKit::Bond::TRIPLE:
                     bond_types[bond_idx] = godot::Bond::TRIPLE;
+                    break;
+                default:
+                    godot::UtilityFunctions::push_warning(
+                        "Unhandled bond type in molecule: ",
+                        godot::String::utf8(p_mol.getProp<std::string>("_Name").c_str()));
                     break;
             }
             bond_idx++;
@@ -128,7 +130,7 @@ static godot::Ref<godot::Mol> load_sdf_mol(const std::string &p_file_path) {
 	RDKit::SDMolSupplier supplier(p_file_path, false, false, false);
     // TODO: Handle more than one molecule??
 	while (!supplier.atEnd()) {
-		auto rd_mol = supplier.next();
+		const auto rd_mol = supplier.next();
         if (!rd_mol || rd_mol->getNumConformers() == 0) {
             continue;
         }
@@ -136,7 +138,7 @@ static godot::Ref<godot::Mol> load_sdf_mol(const std::string &p_file_path) {
         unsigned int failed_op = 0;
         unsigned int sanitize_ops = RDKit::MolOps::SANITIZE_ALL;
         sanitize_ops ^= RDKit::MolOps::SANITIZE_SETAROMATICITY;
-        RDKit::MolOps::sanitizeMol(static_cast<RDKit::RWMol &>(*rd_mol), failed_op, sanitize_ops);
+        RDKit::MolOps::sanitizeMol(dynamic_cast<RDKit::RWMol &>(*rd_mol), failed_op, sanitize_ops);
 
         mol->set_atoms(load_atom_data(*rd_mol));
         mol->set_bonds(load_bond_data(*rd_mol));
@@ -150,7 +152,7 @@ static godot::Ref<godot::Mol> load_smiles_mol(const std::string &p_smiles) {
     godot::Ref<godot::Mol> mol;
     mol.instantiate();
 
-    auto rd_mol = RDKit::SmilesToMol(p_smiles);
+    const auto rd_mol = RDKit::SmilesToMol(p_smiles);
     mol->set_atoms(load_atom_data(*rd_mol));
     mol->set_atoms(load_bond_data(*rd_mol));
 }

@@ -19,7 +19,7 @@ namespace godot {
         ADD_PROPERTY(PropertyInfo(Variant::INT, "bond_type", PROPERTY_HINT_ENUM, "SINGLE,DOUBLE,TRIPLE"), "set_bond_type", "get_bond_type");
     }
 
-    void Bond::set_atom_a_idx(const int& p_atom_a_idx) {
+    void Bond::set_atom_a_idx(const uint16_t& p_atom_a_idx) {
         atom_a_idx = p_atom_a_idx;
     }
 
@@ -27,7 +27,7 @@ namespace godot {
         return atom_a_idx;
     }
 
-    void Bond::set_atom_b_idx(const int& p_atom_b_idx) {
+    void Bond::set_atom_b_idx(const uint16_t& p_atom_b_idx) {
         atom_b_idx = p_atom_b_idx;
     }
 
@@ -35,7 +35,7 @@ namespace godot {
         return atom_b_idx;
     }
 
-    void Bond::set_bond_type(BondType p_bond_type) {
+    void Bond::set_bond_type(const BondType p_bond_type) {
         bond_type = p_bond_type;
     }
 

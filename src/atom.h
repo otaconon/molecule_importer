@@ -1,7 +1,6 @@
 #pragma once
 
 #include <godot_cpp/classes/resource.hpp>
-#include <godot_cpp/variant/array.hpp>
 
 namespace godot {
     class Atom : public Resource {
@@ -16,13 +15,13 @@ namespace godot {
 
     public:
         Atom() = default;
-        ~Atom() = default;
+        ~Atom() override = default;
 
         void set_symbol(const String& p_symbol);
-        String get_symbol() const;
+        [[nodiscard]] String get_symbol() const;
 
         void set_position(const Vector3& p_position);
-        Vector3 get_position() const;
+        [[nodiscard]] Vector3 get_position() const;
     };
 }
 

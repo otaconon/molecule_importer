@@ -5,7 +5,7 @@
 #include "molecule_import_plugin.h"
 
 namespace godot {
-void initialize_importer_types(ModuleInitializationLevel p_level) {
+static void initialize_importer_types(const ModuleInitializationLevel p_level) {
 	if (p_level == MODULE_INITIALIZATION_LEVEL_SCENE) {
 		ClassDB::register_class<Mol>();
 		ClassDB::register_class<Atom>();
@@ -21,17 +21,17 @@ void initialize_importer_types(ModuleInitializationLevel p_level) {
 	}
 }
 
-void uninitialize_importer_types(ModuleInitializationLevel p_level) {
+static void uninitialize_importer_types(ModuleInitializationLevel p_level) {
 	// Empty, but required by the engine during shutdown
 }
 } // namespace godot
 
 extern "C" {
 GDExtensionBool GDE_EXPORT initialize_extension_module(
-		GDExtensionInterfaceGetProcAddress p_get_proc_address,
-		const GDExtensionClassLibraryPtr p_library,
+		const GDExtensionInterfaceGetProcAddress p_get_proc_address,
+		GDExtensionClassLibraryPtr p_library,
 		GDExtensionInitialization *r_initialization) {
-	godot::GDExtensionBinding::InitObject init_obj(p_get_proc_address, p_library, r_initialization);
+	const godot::GDExtensionBinding::InitObject init_obj(p_get_proc_address, p_library, r_initialization);
 
 	init_obj.register_initializer(godot::initialize_importer_types);
 	init_obj.register_terminator(godot::uninitialize_importer_types);
