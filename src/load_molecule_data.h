@@ -80,7 +80,7 @@ static godot::Array load_resonance_data(RDKit::ROMol &p_mol) {
     constexpr uint16_t max_structs = 10;
     RDKit::ResonanceMolSupplier res_supplier(p_mol, res_flags, max_structs);
     while (!res_supplier.atEnd()) {
-        const auto res_mol(res_supplier.next());
+       	std::unique_ptr<RDKit::ROMol> res_mol(res_supplier.next());
         if (!res_mol) continue;
 
         godot::Array charges;
@@ -132,7 +132,7 @@ static godot::Ref<godot::Mol> load_sdf_mol(const std::string &p_file_path) {
 	RDKit::SDMolSupplier supplier(p_file_path, false, false, false);
     // TODO: Handle more than one molecule??
 	while (!supplier.atEnd()) {
-		const auto rd_mol = supplier.next();
+		std::unique_ptr<RDKit::ROMol> rd_mol(supplier.next());
         if (!rd_mol || rd_mol->getNumConformers() == 0) {
             continue;
         }
@@ -171,10 +171,10 @@ static godot::Ref<godot::Texture2D> load_texture(RDKit::ROMol &p_mol) {
 static godot::Ref<godot::Mol> load_smiles_mol(const std::string &p_file_path) {
     godot::Ref<godot::Mol> mol;
     mol.instantiate();
-	RDKit::SmilesMolSupplier supplier(p_file_path, "\t", 0, -1, false);
+	RDKit::SmilesMolSupplier supplier(p_file_path, "\t", 0, -1, false, false);
 	// TODO: Handle more than one molecule??
 	while (!supplier.atEnd()) {
-		const auto rd_mol = supplier.next();
+		std::unique_ptr<RDKit::ROMol> rd_mol(supplier.next());
 		if (!rd_mol || rd_mol->getNumConformers() == 0) {
 			continue;
 		}
