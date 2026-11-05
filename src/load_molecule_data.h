@@ -4,7 +4,9 @@
 #include <GraphMol/FileParsers/FileParsers.h>
 #include <GraphMol/FileParsers/MolSupplier.h>
 #include <GraphMol/Resonance.h>
-#include <GraphMol/MolDraw2D/MolDraw2DSVG.h>
+#include <GraphMol/MolDraw2D/MolDraw2DCairo.h>
+#include <GraphMol/DistGeomHelpers/Embedder.h>
+#include <GraphMol/Depictor/RDDepictor.h>
 
 #include <godot_cpp/classes/project_settings.hpp>
 #include <godot_cpp/variant/variant.hpp>
@@ -18,7 +20,7 @@
 #include "resonance_structure.h"
 #include "godot_cpp/classes/image_texture.hpp"
 
-static godot::Array load_atom_data(const RDKit::ROMol &p_mol) {
+inline godot::Array load_atom_data(const RDKit::ROMol &p_mol) {
     godot::Array atom_data{};
     const RDKit::Conformer &conf = p_mol.getConformer();
     for (const auto atom : p_mol.atoms()) {
@@ -36,7 +38,7 @@ static godot::Array load_atom_data(const RDKit::ROMol &p_mol) {
     return atom_data;
 }
 
-static godot::Array load_bond_data(const RDKit::ROMol &p_mol) {
+inline godot::Array load_bond_data(const RDKit::ROMol &p_mol) {
 	godot::Array bond_data;
 
     for (const auto bond : p_mol.bonds()) {
@@ -70,7 +72,7 @@ static godot::Array load_bond_data(const RDKit::ROMol &p_mol) {
 	return bond_data;
 }
 
-static godot::Array load_resonance_data(RDKit::ROMol &p_mol) {
+inline godot::Array load_resonance_data(RDKit::ROMol &p_mol) {
     constexpr unsigned int res_flags =
     RDKit::ResonanceMolSupplier::KEKULE_ALL |
     RDKit::ResonanceMolSupplier::ALLOW_CHARGE_SEPARATION |
@@ -84,7 +86,7 @@ static godot::Array load_resonance_data(RDKit::ROMol &p_mol) {
         if (!res_mol) continue;
 
         godot::Array charges;
-        charges.resize(res_mol->atoms().size());
+        charges.resize(res_mol->getNumAtoms());
         for (const auto atom: res_mol->atoms()) {
             const auto atom_idx = atom->getIdx();
             const auto formal_charge = atom->getFormalCharge();
@@ -92,7 +94,7 @@ static godot::Array load_resonance_data(RDKit::ROMol &p_mol) {
         }
 
         godot::Array bond_types;
-        bond_types.resize(res_mol->bonds().size());
+        bond_types.resize(res_mol->getNumBonds());
         
         int bond_idx = 0;
         for (const auto bond: res_mol->bonds()) {
@@ -107,9 +109,11 @@ static godot::Array load_resonance_data(RDKit::ROMol &p_mol) {
                     bond_types[bond_idx] = godot::Bond::TRIPLE;
                     break;
                 default:
+            		std::string mol_name = "Unnamed";
+            		p_mol.getPropIfPresent("_Name", mol_name);
                     godot::UtilityFunctions::printerr(
                         "Unhandled bond type in molecule: ",
-                        godot::String::utf8(p_mol.getProp<std::string>("_Name").c_str()));
+                        godot::String::utf8(mol_name.c_str()));
                     break;
             }
             bond_idx++;
@@ -125,7 +129,7 @@ static godot::Array load_resonance_data(RDKit::ROMol &p_mol) {
     return resonance_structures;
 }
 
-static godot::Ref<godot::Mol> load_sdf_mol(const std::string &p_file_path) {
+inline godot::Ref<godot::Mol> load_sdf_mol(const std::string &p_file_path) {
     godot::Ref<godot::Mol> mol;
     mol.instantiate();
 
@@ -150,8 +154,8 @@ static godot::Ref<godot::Mol> load_sdf_mol(const std::string &p_file_path) {
     return mol;
 }
 
-static godot::Ref<godot::Texture2D> load_texture(RDKit::ROMol &p_mol) {
-    RDKit::MolDraw2DSVG mol_draw(512, 512);
+inline godot::Ref<godot::Texture2D> load_texture(RDKit::ROMol &p_mol) {
+    RDKit::MolDraw2DCairo mol_draw(512, 512);
     mol_draw.drawOptions().clearBackground = false;
     mol_draw.drawMolecule(p_mol);
     mol_draw.finishDrawing();
@@ -168,14 +172,18 @@ static godot::Ref<godot::Texture2D> load_texture(RDKit::ROMol &p_mol) {
     return godot::ImageTexture::create_from_image(img);
 }
 
-static godot::Ref<godot::Mol> load_smiles_mol(const std::string &p_file_path) {
+inline godot::Ref<godot::Mol> load_smiles_mol(const std::string &p_file_path) {
     godot::Ref<godot::Mol> mol;
     mol.instantiate();
-	RDKit::SmilesMolSupplier supplier(p_file_path, "\t", 0, -1, false, false);
+	RDKit::SmilesMolSupplier supplier(p_file_path, "\t", 0, -1, false, true);
 	// TODO: Handle more than one molecule??
 	while (!supplier.atEnd()) {
 		std::unique_ptr<RDKit::ROMol> rd_mol(supplier.next());
+		RDDepict::compute2DCoords(*rd_mol);
 		if (!rd_mol || rd_mol->getNumConformers() == 0) {
+			godot::UtilityFunctions::print(
+				"Zero conformers found for molecule: ",
+				godot::String::utf8(p_file_path.c_str()));
 			continue;
 		}
 
@@ -185,7 +193,7 @@ static godot::Ref<godot::Mol> load_smiles_mol(const std::string &p_file_path) {
 		RDKit::MolOps::sanitizeMol(dynamic_cast<RDKit::RWMol &>(*rd_mol), failed_op, sanitize_ops);
 
 		mol->set_atoms(load_atom_data(*rd_mol));
-		mol->set_atoms(load_bond_data(*rd_mol));
+		mol->set_bonds(load_bond_data(*rd_mol));
 		mol->set_texture(load_texture(*rd_mol));
 	}
     return mol;
